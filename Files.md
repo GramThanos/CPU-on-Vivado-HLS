@@ -57,4 +57,4 @@ The `*.h` files should be added on the project files, on the same directory with
 
 Our project should look like this
 
-[!vivado-project-file-structure](docs/vivado-project-file-structure.png)
+![vivado-project-file-structure](docs/vivado-project-file-structure.png)
