@@ -13,7 +13,9 @@ This demo CPU features an Out-of-Order command execution by implementing the Tom
 ___
 
 ## Documentation
+
 [Project's Files Description](Files.md)
+
 [Testion the CPU](Testing.md)
 
 ___
@@ -24,7 +26,7 @@ ___
 This project is under [The MIT license](https://opensource.org/licenses/MIT).
 I do although appreciate attribute.
 
-Copyright (c) 2016 Grammatopoulos Athanasios-Vasileios
+Copyright (c) 2019 Grammatopoulos Athanasios-Vasileios
 
 ___
 
