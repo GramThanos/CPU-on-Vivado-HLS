@@ -13,7 +13,7 @@ This demo CPU features an Out-of-Order command execution by implementing the Tom
 ___
 
 ## Documentation
-[Project's Files Description](Files.md)
+[Project's Files](Files.md)
 [Testion the CPU](Testing.md)
 
 ___

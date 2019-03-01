@@ -37,3 +37,24 @@ For the execution of the CPU and the debugging, 9 more additional file where dev
 | testbench.RegisterFile.cpp | Execution of RegisterFile unit's test function |
 | ReservationStation.test.cpp | Reservation Station test function |
 | testbench.ReservationStation.cpp | Execution of Reservation Station test function |
+
+
+## Inserting the files on an Vivado HLS project
+
+All the `*.cpp` files should be inserted on our projects under the `Source` category except the `testbench.*.cpp` files. To do so, On the `Explorer` panel, we have to right click the `Source` folder and insert each file.
+
+Depending on the test we want to run, we should also include the correct testbench file, one of the `testbench.*.cpp` files. We can insert a testbench file by right clicking the `Test Bench` folder on the `Explorer` panel.
+Our project's top level function should change based on the testbench file we want to run.
+
+| Testbench File | Top Function  |
+| ------------- |---------------|
+| testbench.cpu.cpp | cpu |
+| testbench.Issue.cpp | test_Issue |
+| testbench.RegisterFile.cpp | test_RegisterFile |
+| testbench.ReservationStation.cpp | test_ReservationStation |
+
+The `*.h` files should be added on the project files, on the same directory with the `*.cpp` files, using the file system explorer of our platform.
+
+Our project should look like this
+
+[!vivado-project-file-structure](docs/vivado-project-file-structure.png)
