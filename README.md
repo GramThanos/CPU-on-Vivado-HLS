@@ -4,7 +4,7 @@
 
 Nowadays, tools like Xilinx’s Vivado HLS let us synthesize hardware code from high level languages. Such tools were designed to speed up the development on FPGA projects and to enable porting codes form languages like C++ to the hardware.
 
-In this project I developed the main parts of a MIPS-like CPU in a C++ for use with the Vivado HLS tool. The end result looks like a CPU simulator. This project was developed as an assignment of the Computer architecture Course on Technical University of Crete.
+In this project I developed some basic parts of a MIPS-like CPU in a C++ for use with the Vivado HLS tool. The end result looks like a CPU simulator. I developed this project, when I was an undergraduate student, as an assignment for the Computer Architecture course at [Technical University of Crete](https://www.tuc.gr).
 
 This demo CPU features an Out-of-Order command execution by implementing the Tomasulo's algorithm. I tested the CPU by running simple custom programs which were executed with correct results.
 
