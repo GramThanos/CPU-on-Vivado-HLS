@@ -16,7 +16,7 @@ ___
 
 [Project's Files](Files.md)
 
-[Testion the CPU](Testing.md)
+[Testing the CPU](Testing.md)
 
 ___
 
