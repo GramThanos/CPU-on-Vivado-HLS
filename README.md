@@ -20,6 +20,9 @@ ___
 
 ___
 
+![img](docs/cpu-units-block-diagram.png)
+
+___
 
 ### License
 
